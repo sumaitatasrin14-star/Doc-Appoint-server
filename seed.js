@@ -14,6 +14,7 @@ const femaleNames = [
   "Farhana Akter",
   "Jannat Ara",
   "Nabila Islam"
+  
 ];
 const hospitals = [
   "Labaid Cardiac Hospital",
@@ -27,6 +28,7 @@ const hospitals = [
   "Green Life Hospital",
   "Central Hospital Ltd"
 ];
+
 
 
 
@@ -65,6 +67,12 @@ const doctors = Array.from({ length: 30 }, (_, i) => {
     hospital: hospitals[i % hospitals.length],
     location: "Dhaka",
     fee: 500 + i * 50,
+    "availability": [
+  "9:00 AM",
+  "10:00 AM",
+  "11:00 AM",
+  "4:00 PM"
+]
   };
 });
 
